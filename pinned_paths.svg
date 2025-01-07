@@ -1,0 +1,157 @@
+<svg width="1019px" height="501px"
+ viewBox="0.00 0.00 1018.74 500.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 496.5)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-496.5 1014.74,-496.5 1014.74,4 -4,4"/>
+<text text-anchor="start" x="469.37" y="-7.2" font-family="Times,serif" font-size="14.00">pinned_paths</text>
+<!-- c -->
+<g id="node1" class="node">
+<title>c</title>
+<polygon fill="lightgrey" stroke="black" stroke-width="1.01" points="563.03,-492.5 415.78,-492.5 415.78,-456.5 563.03,-456.5 563.03,-492.5"/>
+<text text-anchor="start" x="423.78" y="-469.45" font-family="Times,serif" font-size="14.00">Notebook can be shared</text>
+</g>
+<!-- gate -->
+<g id="node2" class="node">
+<title>gate</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="660,-420.5 388.62,-420.5 318.81,-384.5 590.19,-384.5 660,-420.5"/>
+<text text-anchor="start" x="412.15" y="-397.45" font-family="Times,serif" font-size="14.00">Assess quality gates are met</text>
+</g>
+<!-- gate&#45;&gt;c -->
+<g id="edge1" class="edge">
+<title>gate&#45;&gt;c</title>
+<path fill="none" stroke="black" d="M489.4,-420.8C489.4,-428.09 489.4,-436.77 489.4,-444.96"/>
+<polygon fill="black" stroke="black" points="485.9,-444.88 489.4,-454.88 492.9,-444.88 485.9,-444.88"/>
+</g>
+<!-- repr -->
+<g id="node3" class="node">
+<title>repr</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="493.53,-348.5 265.28,-348.5 265.28,-312.5 493.53,-312.5 493.53,-348.5"/>
+<text text-anchor="start" x="273.28" y="-325.45" font-family="Times,serif" font-size="14.00">Execution environment is reproducible</text>
+</g>
+<!-- repr&#45;&gt;gate -->
+<g id="edge2" class="edge">
+<title>repr&#45;&gt;gate</title>
+<path fill="none" stroke="black" d="M406.88,-348.98C420.76,-357.82 437.8,-368.66 452.78,-378.2"/>
+<polygon fill="black" stroke="black" points="450.69,-381.01 461,-383.43 454.45,-375.11 450.69,-381.01"/>
+</g>
+<!-- s0 -->
+<g id="node4" class="node">
+<title>s0</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="564.81,-276.5 115.57,-276.5 0,-240.5 449.24,-240.5 564.81,-276.5"/>
+<text text-anchor="start" x="149.28" y="-253.45" font-family="Times,serif" font-size="14.00">Verify dependencies version are correctly pinned</text>
+</g>
+<!-- s0&#45;&gt;repr -->
+<g id="edge3" class="edge">
+<title>s0&#45;&gt;repr</title>
+<path fill="none" stroke="black" d="M306.38,-276.8C318.39,-285.47 333.12,-296.1 346.2,-305.54"/>
+<polygon fill="black" stroke="black" points="343.98,-308.25 354.14,-311.27 348.08,-302.58 343.98,-308.25"/>
+</g>
+<!-- e0 -->
+<g id="node5" class="node">
+<title>e0</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="337.28,-204.5 227.53,-204.5 227.53,-168.5 337.28,-168.5 337.28,-204.5"/>
+<text text-anchor="start" x="235.53" y="-181.45" font-family="Times,serif" font-size="14.00">Pipenv file exists</text>
+</g>
+<!-- e0&#45;&gt;s0 -->
+<g id="edge4" class="edge">
+<title>e0&#45;&gt;s0</title>
+<path fill="none" stroke="black" d="M282.4,-204.8C282.4,-212.09 282.4,-220.77 282.4,-228.96"/>
+<polygon fill="black" stroke="black" points="278.9,-228.88 282.4,-238.88 285.9,-228.88 278.9,-228.88"/>
+</g>
+<!-- fair -->
+<g id="node6" class="node">
+<title>fair</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="734.9,-348.5 559.9,-348.5 559.9,-312.5 734.9,-312.5 734.9,-348.5"/>
+<text text-anchor="start" x="567.9" y="-325.45" font-family="Times,serif" font-size="14.00">Notebook code quality is fair</text>
+</g>
+<!-- fair&#45;&gt;gate -->
+<g id="edge5" class="edge">
+<title>fair&#45;&gt;gate</title>
+<path fill="none" stroke="black" d="M607.94,-348.98C587.03,-358.25 561.14,-369.72 538.9,-379.57"/>
+<polygon fill="black" stroke="black" points="537.75,-376.25 530.02,-383.51 540.58,-382.65 537.75,-376.25"/>
+</g>
+<!-- all_paths -->
+<g id="node7" class="node">
+<title>all_paths</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="809.97,-276.5 629.31,-276.5 582.84,-240.5 763.49,-240.5 809.97,-276.5"/>
+<text text-anchor="start" x="647.65" y="-253.45" font-family="Times,serif" font-size="14.00">all checks are OK</text>
+</g>
+<!-- all_paths&#45;&gt;fair -->
+<g id="edge6" class="edge">
+<title>all_paths&#45;&gt;fair</title>
+<path fill="none" stroke="black" d="M684.29,-276.8C678.71,-284.77 671.97,-294.4 665.79,-303.24"/>
+<polygon fill="black" stroke="black" points="663.11,-300.96 660.24,-311.16 668.85,-304.97 663.11,-300.96"/>
+</g>
+<!-- static -->
+<g id="node8" class="node">
+<title>static</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="694.15,-204.5 478.65,-204.5 478.65,-168.5 694.15,-168.5 694.15,-204.5"/>
+<text text-anchor="start" x="486.65" y="-181.45" font-family="Times,serif" font-size="14.00">static paths are part of the repository</text>
+</g>
+<!-- static&#45;&gt;all_paths -->
+<g id="edge7" class="edge">
+<title>static&#45;&gt;all_paths</title>
+<path fill="none" stroke="black" d="M613.88,-204.98C627.76,-213.82 644.8,-224.66 659.78,-234.2"/>
+<polygon fill="black" stroke="black" points="657.69,-237.01 668,-239.43 661.45,-231.11 657.69,-237.01"/>
+</g>
+<!-- s2 -->
+<g id="node9" class="node">
+<title>s2</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="661.72,-132.5 479.87,-132.5 433.09,-96.5 614.94,-96.5 661.72,-132.5"/>
+<text text-anchor="start" x="498.28" y="-109.45" font-family="Times,serif" font-size="14.00">Verify static paths</text>
+</g>
+<!-- s2&#45;&gt;static -->
+<g id="edge8" class="edge">
+<title>s2&#45;&gt;static</title>
+<path fill="none" stroke="black" d="M557.04,-132.8C561.34,-140.52 566.51,-149.79 571.3,-158.39"/>
+<polygon fill="black" stroke="black" points="568.21,-160.04 576.14,-167.07 574.33,-156.63 568.21,-160.04"/>
+</g>
+<!-- e1 -->
+<g id="node10" class="node">
+<title>e1</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="608.65,-60.5 486.15,-60.5 486.15,-24.5 608.65,-24.5 608.65,-60.5"/>
+<text text-anchor="start" x="494.15" y="-37.45" font-family="Times,serif" font-size="14.00">notebook file exists</text>
+</g>
+<!-- e1&#45;&gt;s2 -->
+<g id="edge9" class="edge">
+<title>e1&#45;&gt;s2</title>
+<path fill="none" stroke="black" d="M547.4,-60.8C547.4,-68.09 547.4,-76.77 547.4,-84.96"/>
+<polygon fill="black" stroke="black" points="543.9,-84.88 547.4,-94.88 550.9,-84.88 543.9,-84.88"/>
+</g>
+<!-- no_dyn -->
+<g id="node11" class="node">
+<title>no_dyn</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="888.65,-204.5 724.15,-204.5 724.15,-168.5 888.65,-168.5 888.65,-204.5"/>
+<text text-anchor="start" x="732.15" y="-181.45" font-family="Times,serif" font-size="14.00">No dynamic paths are used</text>
+</g>
+<!-- no_dyn&#45;&gt;all_paths -->
+<g id="edge10" class="edge">
+<title>no_dyn&#45;&gt;all_paths</title>
+<path fill="none" stroke="black" d="M778.93,-204.98C765.04,-213.82 748.01,-224.66 733.02,-234.2"/>
+<polygon fill="black" stroke="black" points="731.36,-231.11 724.8,-239.43 735.12,-237.01 731.36,-231.11"/>
+</g>
+<!-- s3 -->
+<g id="node12" class="node">
+<title>s3</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="1010.74,-132.5 747.72,-132.5 680.06,-96.5 943.08,-96.5 1010.74,-132.5"/>
+<text text-anchor="start" x="770.78" y="-109.45" font-family="Times,serif" font-size="14.00">Record dynamic paths oath</text>
+</g>
+<!-- s3&#45;&gt;no_dyn -->
+<g id="edge11" class="edge">
+<title>s3&#45;&gt;no_dyn</title>
+<path fill="none" stroke="black" d="M835.76,-132.8C831.47,-140.52 826.3,-149.79 821.51,-158.39"/>
+<polygon fill="black" stroke="black" points="818.48,-156.63 816.67,-167.07 824.59,-160.04 818.48,-156.63"/>
+</g>
+<!-- e -->
+<g id="node13" class="node">
+<title>e</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="976.03,-60.5 714.78,-60.5 714.78,-24.5 976.03,-24.5 976.03,-60.5"/>
+<text text-anchor="start" x="722.78" y="-37.45" font-family="Times,serif" font-size="14.00">Developer ensures absence of dynamic paths</text>
+</g>
+<!-- e&#45;&gt;s3 -->
+<g id="edge12" class="edge">
+<title>e&#45;&gt;s3</title>
+<path fill="none" stroke="black" d="M845.4,-60.8C845.4,-68.09 845.4,-76.77 845.4,-84.96"/>
+<polygon fill="black" stroke="black" points="841.9,-84.88 845.4,-94.88 848.9,-84.88 841.9,-84.88"/>
+</g>
+</g>
+</svg>
